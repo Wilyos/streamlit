@@ -1,1 +1,1 @@
-https://wilyos-streamlit-app-t1gdms.streamlit.app/juegos
+https://wilyos-streamlit-app-3ztp77.streamlit.app
