@@ -5,6 +5,7 @@ st.title("Videojuegos populares 1980-2023")
 
 data = pd.read_csv('games.csv')
 dg = pd.DataFrame(data)
+dg
 rating = st.selectbox('Valoración',(dg['Rating'].sort_values(ascending=True).unique()))
 
 filtro = (dg['Rating'] <= rating)
