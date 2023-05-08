@@ -8,7 +8,7 @@ dg = pd.DataFrame(data)
 dg
 rating = st.selectbox('Valoración',(dg['Rating'].sort_values(ascending=True).unique()))
 
-filtro = (dg['Rating'] <= rating)
+filtro = (dg['Rating'] == rating)
 
 dg_filtro = dg.loc[filtro]
 dg_filtro = dg_filtro.loc[:,['Rating','Title']]
